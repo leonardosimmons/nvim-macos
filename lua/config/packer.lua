@@ -27,7 +27,6 @@ return require('packer').startup(function(use)
 	use('mbbill/undotree')
 	use('tpope/vim-fugitive')
 
-
     -- Core
 	use {
 		'VonHeikemen/lsp-zero.nvim',
@@ -60,6 +59,7 @@ return require('packer').startup(function(use)
     use('MunifTanjim/prettier.nvim')
     use('simrat39/rust-tools.nvim')
     use('voldikss/vim-floaterm')
+    use('alexghergh/nvim-tmux-navigation')
 
     use {
         "nvim-neo-tree/neo-tree.nvim",
@@ -137,7 +137,7 @@ return require('packer').startup(function(use)
                 commands = {},
                 window = {
                     position = "right",
-                    width = 25,
+                    width = 35,
                     mapping_options = {
                         noremap = true,
                         nowait = true,
